@@ -40,7 +40,7 @@ The result:
 <li><kbd>image</kbd> - path to source image;</li>
 <li><kbd>width</kbd> - number of emojis in width <i>(default value is 50)</i>;</li>
 <li><kbd>save_as</kbd> - path to save the result. If <i>None</i> is specified, result will not be saved <i>(default value is None)</i>;</li>
-<li><kbd>styles</kbd> - each letter in this string stands for emoji style which will be used in art. For example, value <code>"ag"</code> means that Apple and Google emoji styles will be used. To select all styles, you can specify <code>"all"</code> <i>(default value is "all")</i>.
+<li><kbd>styles</kbd> - each letter in this string stands for emoji style which will be used in art. For example, value <code>"ag"</code> means that Apple and Google emoji styles will be used. To select all styles, you can specify <code>"all"</code> <i>(default value is "all")</i>;
 <blockquote></blockquote>
 <table>
     <tr>
@@ -69,7 +69,7 @@ The result:
         <td><img src="assets/style-f.png" height="24pt"/></td>
     </tr>
 </table></li>
-<li><kbd>pack</kbd> - path to pack of emojis to draw. All standard packs are in <code>data/</code> folder <i>(default value is "data/classic")</i>.
+<li><kbd>pack</kbd> - path to pack of emojis to draw. All standard packs are in <code>data/</code> folder <i>(default value is "data/classic")</i>;
 <blockquote></blockquote>
 <table>
     <tr>
