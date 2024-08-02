@@ -20,7 +20,7 @@ def correct_filename(filename, default='png'):
     # Set of all supported by PIL extensions
     supported = {ex[1:] for ex, f 
                  in Image.registered_extensions().items() 
-                 if f in Image.OPEN}
+                 if f in Image.SAVE}
 
     sep = filename.split('.')
     if len(sep) == 1 or sep[-1] not in supported:
@@ -98,7 +98,8 @@ def draw(image,
     alphas = matrices[..., 3:] / 255
 
     # Add background to RGBA matrices
-    if len(background) == 4 and background[-1] == 0:
+    b_rgb = np.array(background)[..., None].reshape(-1)
+    if len(b_rgb) == 4 and b_rgb[-1] == 0:
         background = None
     if background is not None and background != 'auto':
         # Preparing background color
@@ -147,7 +148,13 @@ def draw(image,
     # Saving the result if necessary
     if isinstance(save_as, str):
         filename = correct_filename(save_as)
-        result.save(f'{filename}')
-        print(f'The result was saved in {filename}')
+        try:
+            # Trying to save image in RGBA mode
+            result_image.save(f'{filename}')
+        except Exception:
+            # If RGBA mode is not supported by chosen extension:
+            result_image.convert('RGB').save(f'{filename}')
+        finally:
+            print(f'The result was saved in {filename}')
     
     return result_image
