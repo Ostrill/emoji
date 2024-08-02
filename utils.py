@@ -53,12 +53,12 @@ def draw(image,
         result will not be saved
     
     styles : str
-        each letter stands for emoji styles which will
+        each letter stands for emoji style which will
         be used in art:
-        't' = Twitter emoji;
-        'a' = Apple emoji;
-        'g' = Google emoji;
-        'f' = Facebook emoji.
+        't' = Twitter emoji style;
+        'a' = Apple emoji style;
+        'g' = Google emoji style;
+        'f' = Facebook emoji style.
         For example, styles='ag' means that Apple and 
         Google emoji styles will be used. If 'all' is
         specified, it will be replaced by 'tagf'.
