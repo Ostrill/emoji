@@ -51,6 +51,10 @@ def draw(image,
     save_as : str or None
         path to save the result. If None is specified,
         result will not be saved
+
+    pack : str
+        pack of emojis to draw. All standard packs are
+        in data/ folder
     
     styles : str
         each letter stands for emoji style which will
