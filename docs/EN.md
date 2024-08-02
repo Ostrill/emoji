@@ -1,6 +1,6 @@
 <h1><div align="right">
 <code>🇺🇸</code> 
-<a href="RU_info.md">🇷🇺</a>
+<a href="RU.md">🇷🇺</a>
 </div>
 Creating emoji arts
 </h1>

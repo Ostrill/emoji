@@ -25,4 +25,4 @@ draw(image='images/example.png',
      save_as='images/result.png')
 ```
 
-> More examples and details in [`documentation`](docs/EN_info.md)
+> More examples and details in [`documentation`](docs/EN.md)

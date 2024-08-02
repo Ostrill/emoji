@@ -1,5 +1,5 @@
 <h1><div align="right">
-<a href="EN_info.md">🇺🇸</a>
+<a href="EN.md">🇺🇸</a>
 <code>🇷🇺</code> 
 </div>
 Создание картинок из смайликов
