@@ -51,22 +51,22 @@ draw(image='fuji.jpg',  # путь к исходной картинке
     <tr>
         <td><code>"t"</code></td>
         <td>Стиль смайликов Twitter</td>
-        <td><img src="assets/style-t.png" height="24pt"/></td>
+        <td><img src="assets/style-t.png" width="140pt"/></td>
     </tr>
     <tr>
         <td><code>"a"</code></td>
         <td>Стиль смайликов Apple</td>
-        <td><img src="assets/style-a.png" height="24pt"/></td>
+        <td><img src="assets/style-a.png" width="140pt"/></td>
     </tr>
     <tr>
         <td><code>"g"</code></td>
         <td>Стиль смайликов Google</td>
-        <td><img src="assets/style-g.png" height="24pt"/></td>
+        <td><img src="assets/style-g.png" width="140pt"/></td>
     </tr>
     <tr>
         <td><code>"f"</code></td>
         <td>Стиль смайликов Facebook</td>
-        <td><img src="assets/style-f.png" height="24pt"/></td>
+        <td><img src="assets/style-f.png" width="140pt"/></td>
     </tr>
 </table></li>
 <li><kbd>pack</kbd> - путь к паку смайликов, которые будут использоваться для рисования картинки. Все стандартные паки находятся в папке <code>data/</code> <i>(значение по умолчанию: "data/classic")</i>;

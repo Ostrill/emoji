@@ -51,22 +51,22 @@ The result:
     <tr>
         <td><code>"t"</code></td>
         <td>Twitter emoji style</td>
-        <td><img src="assets/style-t.png" height="24pt"/></td>
+        <td><img src="assets/style-t.png" width="140pt"/></td>
     </tr>
     <tr>
         <td><code>"a"</code></td>
         <td>Apple emoji style</td>
-        <td><img src="assets/style-a.png" height="24pt"/></td>
+        <td><img src="assets/style-a.png" width="140pt"/></td>
     </tr>
     <tr>
         <td><code>"g"</code></td>
         <td>Google emoji style</td>
-        <td><img src="assets/style-g.png" height="24pt"/></td>
+        <td><img src="assets/style-g.png" width="140pt"/></td>
     </tr>
     <tr>
         <td><code>"f"</code></td>
         <td>Facebook emoji style</td>
-        <td><img src="assets/style-f.png" height="24pt"/></td>
+        <td><img src="assets/style-f.png" width="140pt"/></td>
     </tr>
 </table></li>
 <li><kbd>pack</kbd> - path to pack of emojis to draw. All standard packs are in <code>data/</code> folder <i>(default value is "data/classic")</i>;
