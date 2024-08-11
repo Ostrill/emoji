@@ -21,8 +21,8 @@ pip install pillow==10.2.0
 ```Python
 from utils import draw
 
-draw(image='images/example.png', 
-     save_as='images/result.png')
+draw(image='example.jpg',  # path to source image
+     save_as='result.png') # path to save the emoji art
 ```
 
 > More examples and details in [`documentation`](docs/EN.md)
