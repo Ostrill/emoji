@@ -2,7 +2,7 @@
 
 Turn your picture into emoji art!
 
-![example](docs/assets/example.jpg)
+![example](docs/assets/example.png)
 
 ## Using
 

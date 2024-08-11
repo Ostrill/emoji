@@ -10,7 +10,7 @@ The following concept is used to draw an emoji art:
 2. Each emoji is a 50×50 pixel image. The average color in RGB channels is calculated for all its 2500 pixels.
 3. For each pixel of the source picture, the emoji is selected, the average color of which is closest to the color of this pixel (closeness is determined by the Euclidean distance in RGB space).
 
-![process](assets/process.jpg)
+![process](assets/process.png)
 
 ## Examples
 
